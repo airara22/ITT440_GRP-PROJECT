@@ -22,7 +22,7 @@ except socket.error as e:
    print(str(e))
 
 print("\t\t---Waiting for player to connect---")
-s.listen(5)
+s.listen(5)  
 
 
 # function execute everytime it received  option number from client
